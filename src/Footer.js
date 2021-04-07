@@ -19,7 +19,7 @@ export default function Footer() {
       <small className="git-hub">
         Open-source code on
         <a
-          href="https://github.com/alessiamaschio/shecodes-weather-app-project"
+          href="https://github.com/alessiamaschio/homework-week-4"
           target="_blank"
           className="git-hub-link"
           rel="noreferrer"
