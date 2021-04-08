@@ -11,23 +11,23 @@ export default function Header() {
           <div className="bar3"></div>
         </div>
         <div id="my-dropdown" className="dropdown-content">
-          <a className="dropdown-link" href="#" id="fahrenheit">
+          <span className="dropdown-link" href="#" id="fahrenheit">
             Convert to
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/005/original/fahrenheit.png?1616662155"
               alt="Fahrenheit icon"
               title="Icons made by Freepik -> https://www.freepik.com"
             />
-          </a>
-          <a className="dropdown-link" href="#" id="celsius">
+          </span>
+          <span className="dropdown-link" href="#" id="celsius">
             Convert to
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/006/original/celsius.png?1616662180"
               alt="Celsius icon"
               title="Icons made by Freepik -> https://www.freepik.com"
             />
-          </a>
-          <a className="dropdown-link" href="#" id="current-location">
+          </span>
+          <span className="dropdown-link" href="#" id="current-location">
             Current Location
             <img
               className="current-location-icon"
@@ -35,8 +35,8 @@ export default function Header() {
               alt="Current location icon"
               title="Icons made by Freepik -> https://www.freepik.com"
             />
-          </a>
-          <a className="dropdown-link" href="#" id="random-background-color">
+          </span>
+          <span className="dropdown-link" href="#" id="random-background-color">
             Random background
             <img
               className="background-color-icon"
@@ -44,8 +44,11 @@ export default function Header() {
               alt="Color palette icon"
               title="Icons made by Freepik -> https://www.freepik.com"
             />
-          </a>
-          <a className="dropdown-link" href="mailto:alessiamaschio@gmail.com">
+          </span>
+          <span
+            className="dropdown-link"
+            href="mailto:alessiamaschio@gmail.com"
+          >
             Say Hi
             <img
               className="email-icon"
@@ -53,7 +56,7 @@ export default function Header() {
               alt="Mailbox icon"
               title="Icons made by Freepik -> https://www.freepik.com"
             />
-          </a>
+          </span>
         </div>
       </div>
       <form id="search-form">
